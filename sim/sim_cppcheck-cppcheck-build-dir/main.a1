@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2206533368">
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/filesManager.h:18:6" call-funcname="fileOut" call-argnr="3" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/main.c" line="146" col="9" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Bounds checking">
+    <array-index>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/main.c:16:5" my-argnr="2" my-argname="argv" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/main.c" line="24" col="27" value="1"/>
+    </array-index>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/main.c:16:5" my-argnr="2" my-argname="argv" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/main.c" line="24" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/main.c:13:6" my-argnr="1" my-argname="cpu" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/main.c" line="169" col="41" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/main.c:13:6" my-argnr="2" my-argname="trace_file_desc" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/main.c" line="169" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/main.c:13:6" my-argnr="2" my-argname="trace_file_desc" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/main.c" line="169" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="16"/>
+    <functiondecl functionName="write_trace" lineNumber="166"/>
+    <functioncall functionName="$a0"/>
+    <functioncall functionName="$a1"/>
+    <functioncall functionName="$fp"/>
+    <functioncall functionName="$gp"/>
+    <functioncall functionName="$imm"/>
+    <functioncall functionName="$ra"/>
+    <functioncall functionName="$s0"/>
+    <functioncall functionName="$s1"/>
+    <functioncall functionName="$s2"/>
+    <functioncall functionName="$sp"/>
+    <functioncall functionName="$t0"/>
+    <functioncall functionName="$t1"/>
+    <functioncall functionName="$t2"/>
+    <functioncall functionName="$t3"/>
+    <functioncall functionName="$v0"/>
+    <functioncall functionName="Irq2Init"/>
+    <functioncall functionName="NUM_OF_IOREGISTERS"/>
+    <functioncall functionName="NUM_OF_OPCODES"/>
+    <functioncall functionName="NUM_OF_REGISTERS"/>
+    <functioncall functionName="PC"/>
+    <functioncall functionName="and"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="beq"/>
+    <functioncall functionName="bge"/>
+    <functioncall functionName="bgt"/>
+    <functioncall functionName="ble"/>
+    <functioncall functionName="blt"/>
+    <functioncall functionName="bne"/>
+    <functioncall functionName="clks"/>
+    <functioncall functionName="cpu"/>
+    <functioncall functionName="cyclesOut"/>
+    <functioncall functionName="disk"/>
+    <functioncall functionName="diskOut"/>
+    <functioncall functionName="diskbuffer"/>
+    <functioncall functionName="diskcmd"/>
+    <functioncall functionName="disksector"/>
+    <functioncall functionName="diskstatus"/>
+    <functioncall functionName="display"/>
+    <functioncall functionName="display_file_desc"/>
+    <functioncall functionName="executeInstruction"/>
+    <functioncall functionName="fclose"/>
+    <functioncall functionName="fetch_address"/>
+    <functioncall functionName="fileOut"/>
+    <functioncall functionName="file_desc"/>
+    <functioncall functionName="fopen"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="freeCPU"/>
+    <functioncall functionName="fscanf"/>
+    <functioncall functionName="halt"/>
+    <functioncall functionName="hwreg_file_desc"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="in"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="irq0enable"/>
+    <functioncall functionName="irq0status"/>
+    <functioncall functionName="irq1enable"/>
+    <functioncall functionName="irq1status"/>
+    <functioncall functionName="irq2"/>
+    <functioncall functionName="irq2enable"/>
+    <functioncall functionName="irq2status"/>
+    <functioncall functionName="irqhandler"/>
+    <functioncall functionName="irqreturn"/>
+    <functioncall functionName="is_file_read_completed"/>
+    <functioncall functionName="is_in_irq"/>
+    <functioncall functionName="j"/>
+    <functioncall functionName="jal"/>
+    <functioncall functionName="leds"/>
+    <functioncall functionName="leds_file_desc"/>
+    <functioncall functionName="lw"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="memory"/>
+    <functioncall functionName="next_occurence"/>
+    <functioncall functionName="or"/>
+    <functioncall functionName="out"/>
+    <functioncall functionName="parseDisk"/>
+    <functioncall functionName="parseMemin"/>
+    <functioncall functionName="rd"/>
+    <functioncall functionName="registers"/>
+    <functioncall functionName="reti"/>
+    <functioncall functionName="rs"/>
+    <functioncall functionName="rt"/>
+    <functioncall functionName="sim_init"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="sll"/>
+    <functioncall functionName="sra"/>
+    <functioncall functionName="srl"/>
+    <functioncall functionName="sub"/>
+    <functioncall functionName="sw"/>
+    <functioncall functionName="timercurrent"/>
+    <functioncall functionName="timerenable"/>
+    <functioncall functionName="timermax"/>
+    <functioncall functionName="trace_file_desc"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="write_trace"/>
+  </FileInfo>
+</analyzerinfo>

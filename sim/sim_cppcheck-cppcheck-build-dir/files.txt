@@ -1,0 +1,4 @@
+cpu.a1:Debug|Win32:C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/cpu.c
+filesManager.a1:Debug|Win32:C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/filesManager.c
+main.a1:Debug|Win32:C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/main.c
+operators.a1:Debug|Win32:C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operators.c

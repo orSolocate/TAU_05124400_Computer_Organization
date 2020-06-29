@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2047742457">
+        <error id="shiftNegativeLHS" severity="portability" msg="Shifting a negative value is technically undefined behaviour" verbose="Shifting a negative value is technically undefined behaviour" cwe="758">
+            <location file0="C:\Users\Or\Documents\Studies\TAU\Term2\Computer_Organization\project\sim\sim\operators.c" file="C:\Users\Or\Documents\Studies\TAU\Term2\Computer_Organization\project\sim\sim\operators.c" line="74" column="65"/>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operations.h:6:6" my-argnr="1" my-argname="cpu" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operators.c" line="9" col="6" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operations.h:7:6" my-argnr="1" my-argname="cpu" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operators.c" line="21" col="6" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operations.h:8:6" my-argnr="1" my-argname="cpu" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operators.c" line="32" col="6" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operations.h:9:6" my-argnr="1" my-argname="cpu" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operators.c" line="43" col="6" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operations.h:10:6" my-argnr="1" my-argname="cpu" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operators.c" line="54" col="6" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operations.h:11:6" my-argnr="1" my-argname="cpu" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operators.c" line="66" col="6" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operations.h:12:6" my-argnr="1" my-argname="cpu" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operators.c" line="86" col="6" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operations.h:13:6" my-argnr="1" my-argname="cpu" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operators.c" line="98" col="6" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operations.h:15:6" my-argnr="1" my-argname="cpu" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operators.c" line="110" col="6" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operations.h:16:6" my-argnr="1" my-argname="cpu" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operators.c" line="122" col="6" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operations.h:17:6" my-argnr="1" my-argname="cpu" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operators.c" line="134" col="6" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operations.h:18:6" my-argnr="1" my-argname="cpu" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operators.c" line="146" col="6" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operations.h:19:6" my-argnr="1" my-argname="cpu" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operators.c" line="158" col="6" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operations.h:20:6" my-argnr="1" my-argname="cpu" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operators.c" line="170" col="2" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operations.h:21:6" my-argnr="1" my-argname="cpu" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operators.c" line="176" col="2" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operations.h:22:6" my-argnr="1" my-argname="cpu" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operators.c" line="182" col="2" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operations.h:23:6" my-argnr="1" my-argname="cpu" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operators.c" line="188" col="2" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operations.h:24:6" my-argnr="1" my-argname="cpu" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operators.c" line="195" col="2" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operations.h:25:6" my-argnr="1" my-argname="cpu" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/operators.c" line="201" col="2" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="add_op" lineNumber="7"/>
+    <functiondecl functionName="sub_op" lineNumber="19"/>
+    <functiondecl functionName="and_op" lineNumber="30"/>
+    <functiondecl functionName="or_op" lineNumber="41"/>
+    <functiondecl functionName="sll_op" lineNumber="52"/>
+    <functiondecl functionName="sra_op" lineNumber="64"/>
+    <functiondecl functionName="srl_op" lineNumber="84"/>
+    <functiondecl functionName="beq_op" lineNumber="96"/>
+    <functiondecl functionName="bne_op" lineNumber="108"/>
+    <functiondecl functionName="blt_op" lineNumber="120"/>
+    <functiondecl functionName="bgt_op" lineNumber="132"/>
+    <functiondecl functionName="ble_op" lineNumber="144"/>
+    <functiondecl functionName="bge_op" lineNumber="156"/>
+    <functiondecl functionName="jal_op" lineNumber="168"/>
+    <functiondecl functionName="lw_op" lineNumber="174"/>
+    <functiondecl functionName="sw_op" lineNumber="180"/>
+    <functiondecl functionName="reti_op" lineNumber="186"/>
+    <functiondecl functionName="in_op" lineNumber="193"/>
+    <functiondecl functionName="out_op" lineNumber="199"/>
+    <functiondecl functionName="halt_op" lineNumber="205"/>
+    <functioncall functionName="$a0"/>
+    <functioncall functionName="$a1"/>
+    <functioncall functionName="$fp"/>
+    <functioncall functionName="$gp"/>
+    <functioncall functionName="$imm"/>
+    <functioncall functionName="$ra"/>
+    <functioncall functionName="$s0"/>
+    <functioncall functionName="$s1"/>
+    <functioncall functionName="$s2"/>
+    <functioncall functionName="$sp"/>
+    <functioncall functionName="$t0"/>
+    <functioncall functionName="$t1"/>
+    <functioncall functionName="$t2"/>
+    <functioncall functionName="$t3"/>
+    <functioncall functionName="$v0"/>
+    <functioncall functionName="NUM_OF_IOREGISTERS"/>
+    <functioncall functionName="NUM_OF_OPCODES"/>
+    <functioncall functionName="NUM_OF_REGISTERS"/>
+    <functioncall functionName="and"/>
+    <functioncall functionName="beq"/>
+    <functioncall functionName="bge"/>
+    <functioncall functionName="bgt"/>
+    <functioncall functionName="ble"/>
+    <functioncall functionName="blt"/>
+    <functioncall functionName="bne"/>
+    <functioncall functionName="clks"/>
+    <functioncall functionName="diskbuffer"/>
+    <functioncall functionName="diskcmd"/>
+    <functioncall functionName="disksector"/>
+    <functioncall functionName="diskstatus"/>
+    <functioncall functionName="display"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="halt"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="in"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="irq0status"/>
+    <functioncall functionName="irq1enable"/>
+    <functioncall functionName="irq1status"/>
+    <functioncall functionName="irq2enable"/>
+    <functioncall functionName="irq2status"/>
+    <functioncall functionName="irqhandler"/>
+    <functioncall functionName="irqreturn"/>
+    <functioncall functionName="jal"/>
+    <functioncall functionName="leds"/>
+    <functioncall functionName="lw"/>
+    <functioncall functionName="or"/>
+    <functioncall functionName="out"/>
+    <functioncall functionName="rd"/>
+    <functioncall functionName="reti"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="rs"/>
+    <functioncall functionName="rt"/>
+    <functioncall functionName="sll"/>
+    <functioncall functionName="sra"/>
+    <functioncall functionName="srl"/>
+    <functioncall functionName="sub"/>
+    <functioncall functionName="sw"/>
+    <functioncall functionName="timercurrent"/>
+    <functioncall functionName="timerenable"/>
+    <functioncall functionName="timermax"/>
+    <functioncall functionName="void"/>
+  </FileInfo>
+</analyzerinfo>

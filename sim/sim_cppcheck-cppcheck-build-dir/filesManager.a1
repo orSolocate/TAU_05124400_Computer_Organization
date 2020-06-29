@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2072546938">
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/filesManager.h:17:15" my-argnr="1" my-argname="memory_file" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/filesManager.c" line="13" col="26" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/filesManager.h:18:6" my-argnr="2" my-argname="out_file" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/filesManager.c" line="32" col="20" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/filesManager.h:19:6" my-argnr="1" my-argname="disk" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/filesManager.c" line="49" col="42" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/filesManager.h:19:6" my-argnr="2" my-argname="disk_file" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/filesManager.c" line="46" col="25" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/filesManager.h:20:6" my-argnr="2" my-argname="out_file" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/filesManager.c" line="63" col="25" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/filesManager.h:21:6" my-argnr="2" my-argname="out_file" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/filesManager.c" line="80" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/filesManager.h:22:14" my-argnr="1" my-argname="irq2_file" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/filesManager.c" line="91" col="26" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/filesManager.h:17:15" my-argnr="1" my-argname="memory_file" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/filesManager.c" line="13" col="26" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/filesManager.h:18:6" my-argnr="2" my-argname="out_file" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/filesManager.c" line="32" col="20" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/filesManager.h:19:6" my-argnr="2" my-argname="disk_file" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/filesManager.c" line="46" col="25" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/filesManager.h:20:6" my-argnr="2" my-argname="out_file" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/filesManager.c" line="63" col="25" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/filesManager.h:21:6" my-argnr="2" my-argname="out_file" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/filesManager.c" line="80" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/filesManager.h:22:14" my-argnr="1" my-argname="irq2_file" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/filesManager.c" line="91" col="26" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="parseMemin" lineNumber="9"/>
+    <functiondecl functionName="fileOut" lineNumber="29"/>
+    <functiondecl functionName="parseDisk" lineNumber="43"/>
+    <functiondecl functionName="diskOut" lineNumber="60"/>
+    <functiondecl functionName="cyclesOut" lineNumber="77"/>
+    <functiondecl functionName="Irq2Init" lineNumber="87"/>
+    <functioncall functionName="$a0"/>
+    <functioncall functionName="$a1"/>
+    <functioncall functionName="$fp"/>
+    <functioncall functionName="$gp"/>
+    <functioncall functionName="$imm"/>
+    <functioncall functionName="$ra"/>
+    <functioncall functionName="$s0"/>
+    <functioncall functionName="$s1"/>
+    <functioncall functionName="$s2"/>
+    <functioncall functionName="$sp"/>
+    <functioncall functionName="$t0"/>
+    <functioncall functionName="$t1"/>
+    <functioncall functionName="$t2"/>
+    <functioncall functionName="$t3"/>
+    <functioncall functionName="$v0"/>
+    <functioncall functionName="NUM_OF_IOREGISTERS"/>
+    <functioncall functionName="NUM_OF_OPCODES"/>
+    <functioncall functionName="NUM_OF_REGISTERS"/>
+    <functioncall functionName="and"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="beq"/>
+    <functioncall functionName="bge"/>
+    <functioncall functionName="bgt"/>
+    <functioncall functionName="ble"/>
+    <functioncall functionName="blt"/>
+    <functioncall functionName="bne"/>
+    <functioncall functionName="clks"/>
+    <functioncall functionName="cycles"/>
+    <functioncall functionName="cycles_file_desc"/>
+    <functioncall functionName="disk_file"/>
+    <functioncall functionName="disk_file_desc"/>
+    <functioncall functionName="diskbuffer"/>
+    <functioncall functionName="diskcmd"/>
+    <functioncall functionName="disksector"/>
+    <functioncall functionName="diskstatus"/>
+    <functioncall functionName="display"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fclose"/>
+    <functioncall functionName="file_desc"/>
+    <functioncall functionName="fopen"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="fscanf"/>
+    <functioncall functionName="halt"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="in"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="irq0status"/>
+    <functioncall functionName="irq1enable"/>
+    <functioncall functionName="irq1status"/>
+    <functioncall functionName="irq2_file"/>
+    <functioncall functionName="irq2enable"/>
+    <functioncall functionName="irq2status"/>
+    <functioncall functionName="irqhandler"/>
+    <functioncall functionName="irqreturn"/>
+    <functioncall functionName="j"/>
+    <functioncall functionName="jal"/>
+    <functioncall functionName="leds"/>
+    <functioncall functionName="lw"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="memin_file_desc"/>
+    <functioncall functionName="memory_file"/>
+    <functioncall functionName="next_occurence"/>
+    <functioncall functionName="or"/>
+    <functioncall functionName="out"/>
+    <functioncall functionName="out_file"/>
+    <functioncall functionName="reti"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="sll"/>
+    <functioncall functionName="sra"/>
+    <functioncall functionName="srl"/>
+    <functioncall functionName="start_index"/>
+    <functioncall functionName="sub"/>
+    <functioncall functionName="sw"/>
+    <functioncall functionName="timercurrent"/>
+    <functioncall functionName="timerenable"/>
+    <functioncall functionName="timermax"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="while"/>
+  </FileInfo>
+</analyzerinfo>

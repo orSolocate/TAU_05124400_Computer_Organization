@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2427580705">
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/cpu.h:49:6" my-argnr="1" my-argname="cpu" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/cpu.c" line="37" col="37" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/cpu.h:50:6" my-argnr="1" my-argname="cpu" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/cpu.c" line="85" col="6" value="0"/>
+    <unsafe-usage my-id="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/cpu.h:51:6" my-argnr="1" my-argname="cpu" file="C:/Users/Or/Documents/Studies/TAU/Term2/Computer_Organization/project/sim/sim/cpu.c" line="129" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="sim_init" lineNumber="12"/>
+    <functiondecl functionName="fetch_address" lineNumber="34"/>
+    <functiondecl functionName="signExtension" lineNumber="47"/>
+    <functiondecl functionName="initializeOperators" lineNumber="58"/>
+    <functiondecl functionName="executeInstruction" lineNumber="82"/>
+    <functiondecl functionName="freeCPU" lineNumber="127"/>
+    <functioncall functionName="$a0"/>
+    <functioncall functionName="$a1"/>
+    <functioncall functionName="$fp"/>
+    <functioncall functionName="$gp"/>
+    <functioncall functionName="$imm"/>
+    <functioncall functionName="$ra"/>
+    <functioncall functionName="$s0"/>
+    <functioncall functionName="$s1"/>
+    <functioncall functionName="$s2"/>
+    <functioncall functionName="$sp"/>
+    <functioncall functionName="$t0"/>
+    <functioncall functionName="$t1"/>
+    <functioncall functionName="$t2"/>
+    <functioncall functionName="$t3"/>
+    <functioncall functionName="$v0"/>
+    <functioncall functionName="NUM_OF_IOREGISTERS"/>
+    <functioncall functionName="NUM_OF_OPCODES"/>
+    <functioncall functionName="NUM_OF_REGISTERS"/>
+    <functioncall functionName="PC"/>
+    <functioncall functionName="add"/>
+    <functioncall functionName="add_op"/>
+    <functioncall functionName="and"/>
+    <functioncall functionName="and_op"/>
+    <functioncall functionName="beq"/>
+    <functioncall functionName="beq_op"/>
+    <functioncall functionName="bge"/>
+    <functioncall functionName="bge_op"/>
+    <functioncall functionName="bgt"/>
+    <functioncall functionName="bgt_op"/>
+    <functioncall functionName="ble"/>
+    <functioncall functionName="ble_op"/>
+    <functioncall functionName="blt"/>
+    <functioncall functionName="blt_op"/>
+    <functioncall functionName="bne"/>
+    <functioncall functionName="bne_op"/>
+    <functioncall functionName="clks"/>
+    <functioncall functionName="cpu"/>
+    <functioncall functionName="current_instruction"/>
+    <functioncall functionName="diskbuffer"/>
+    <functioncall functionName="diskcmd"/>
+    <functioncall functionName="disksector"/>
+    <functioncall functionName="diskstatus"/>
+    <functioncall functionName="display"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="halt"/>
+    <functioncall functionName="halt_op"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="imm"/>
+    <functioncall functionName="in"/>
+    <functioncall functionName="in_op"/>
+    <functioncall functionName="initializeOperators"/>
+    <functioncall functionName="inst"/>
+    <functioncall functionName="irq0status"/>
+    <functioncall functionName="irq1enable"/>
+    <functioncall functionName="irq1status"/>
+    <functioncall functionName="irq2enable"/>
+    <functioncall functionName="irq2status"/>
+    <functioncall functionName="irqhandler"/>
+    <functioncall functionName="irqreturn"/>
+    <functioncall functionName="jal"/>
+    <functioncall functionName="jal_op"/>
+    <functioncall functionName="leds"/>
+    <functioncall functionName="lw"/>
+    <functioncall functionName="lw_op"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="memory"/>
+    <functioncall functionName="opcode"/>
+    <functioncall functionName="or"/>
+    <functioncall functionName="or_op"/>
+    <functioncall functionName="out"/>
+    <functioncall functionName="out_op"/>
+    <functioncall functionName="reti"/>
+    <functioncall functionName="reti_op"/>
+    <functioncall functionName="signExtension"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="sll"/>
+    <functioncall functionName="sll_op"/>
+    <functioncall functionName="sra"/>
+    <functioncall functionName="sra_op"/>
+    <functioncall functionName="srl"/>
+    <functioncall functionName="srl_op"/>
+    <functioncall functionName="sub"/>
+    <functioncall functionName="sub_op"/>
+    <functioncall functionName="sw"/>
+    <functioncall functionName="sw_op"/>
+    <functioncall functionName="timercurrent"/>
+    <functioncall functionName="timerenable"/>
+    <functioncall functionName="timermax"/>
+    <functioncall functionName="void"/>
+  </FileInfo>
+</analyzerinfo>
