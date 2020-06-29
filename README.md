@@ -6,7 +6,7 @@ The project includes:
 
 
 Diagram that explains the design in the project
-![](diagram.png)
+![](documentation/diagram.png)
 
 
 This repository contains the submitted material.
